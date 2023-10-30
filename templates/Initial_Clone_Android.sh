@@ -5,10 +5,10 @@ set -e
 cd storage/shared
 
 # ADAPT ME
-git clone --depth 3 "git@github.com/my-user/my-knowledge-base.git"
+git clone --depth 3 "git@github.com/i8degrees/test-notes.git"
 
 # ADAPT ME
-cd knowledge-base
+cd test-notes.git
 
 # On android, we know, that hooks don't work.
 # We invoke them directly in the scripts instead.
@@ -18,13 +18,13 @@ git lfs fetch
 git lfs pull
 
 # ADAPT ME
-git remote add origin "git@github.com/my-user/my-knowledge-base.git" || true
-git push -u origin main
-git branch --set-upstream-to=origin/main main
+git remote add origin "git@github.com/i8degrees/test-notes.git" || true
+git push -u origin master
+git branch --set-upstream-to=origin/master master 
 
 safe() {
   # ADAPT ME
-  git config --global --add safe.directory /path/to/my-knowledge-base/"$1"
+  git config --global --add safe.directory /storage/emulated/0/Projects/test-notes.git"$1"
 }
 
 # For each git repository (including submodules)
