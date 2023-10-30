@@ -1,4 +1,7 @@
 # git-sync-scripts
+
+This is a forked repository of [GollyTicker/git-sync-template](https://github.com/GollyTicker/git-sync-template). Thank you!
+
 A set of scripts to synchronize local folders. Primarily used for syncing Markdown-based knowledge files across multiple systems
 
 *Attention: These files are merely provided, because my private setup seems to solve some problems other people also had. You're best if you understand a bit about linux, command line, git and termux so that you can fix minor problems yourselves. These scripts are **NOT** intended as a jump-in immediately-user-friendly robust set of scripts, when used outside of their initial use-case.*
