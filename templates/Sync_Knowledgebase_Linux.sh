@@ -2,7 +2,7 @@
 set -e
 
 # ADAPT ME
-export SCRIPTS="/path/to/my/knowledge-base/scripts"
+export SCRIPTS="~/Projects/test-notes.git/scripts"
 cd "$SCRIPTS"
 
 # ADAPT ME
