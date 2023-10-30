@@ -2,7 +2,7 @@
 set -e
 
 # ADAPT ME
-export SCRIPTS="/path/to/my/knowledge-base/zsc"
+export SCRIPTS="/storage/emulated/0/Projects/test-notes.git/zsc"
 cd "$SCRIPTS"
 
 # ADAPT ME
